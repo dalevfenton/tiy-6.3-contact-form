@@ -1,0 +1,111 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/'
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap'
+
+$greencolor: rgb(25, 126, 0)
+$redcolor: rgb(147, 0, 0)
+
+*,
+*::before,
+*::after
+  box-sizing: border-box
+
+img
+  max-width: 100%
+
+.logo-container
+  text-align: center
+  padding-top: 100px
+
+.trademark
+  font-size: 10px
+
+.contact-form-container
+  padding-top: 25px
+
+.contact-input-containers
+  margin-bottom: 10px
+  label.control-label
+    text-align: left
+    padding-left: 0px
+    .fa-mobile
+      font-size: 20px
+
+.contact-list-container
+  text-align: center
+  border-top: 4px solid #222
+
+.add-contact-button-container
+  text-align: right
+
+#contact-search-input
+  width: 650px
+
+.search-button
+  padding-bottom: 7px
+
+.contact-table
+  td
+    text-align: left
+
+#table-heading
+  text-align: center
+  border: 1px solid #ccc
+  font-size: 16px
+  padding: 10px 16px
+  margin-top: 8px
+  margin-bottom: 12px
+  display: inline-block
+  border-radius: 6px
+
+.edit-delete-buttons
+  padding-left: 8px
+  border-radius: 6px
+  color: #333
+  background-color: #e6e6e6
+  border: 1px solid #adadad
+  margin-bottom: 4px
+  i
+    font-size: 18px
+  width: 4%
+  &:not(:last-of-type)
+    margin-right: 2%
+
+a.edit-delete-buttons.edit
+  &:hover
+    color: $greencolor
+  &:active
+    color: $greencolor
+
+a.edit-delete-buttons.delete
+  &:hover
+    color: $redcolor
+  &:active
+    color: $redcolor
+
+.contact-holder
+  width: 100%
+  text-align: left
+  margin-bottom: 5px
+  border-bottom: 1px solid #ccc
+
+.contact-edit-input
+  width: 12%
+  display: inline-block
+  margin-right: 2%
+
+.editing-contacts-form
+  .contact-edit-input
+    border: 1px solid #ccc
+    border-radius: 6px
+    padding-top: 2px
+    padding-left: 4px
+    padding-bottom: 2px
+
+
+
+.contact-holder-heading
+  font-weight: bold
